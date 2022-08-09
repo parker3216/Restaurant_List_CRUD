@@ -1,6 +1,6 @@
 const express = require('express')
 const exphbs = require('express-handlebars')//載入handlebars
-
+const Url = require('./models/url')//載入Url Ｍodel
 
 const port = 3000
 const app = express()
@@ -25,7 +25,10 @@ app.set('view engine', 'handlebars')
 
 
 app.get('/', (req,res) =>{
-  res.render('index')
+  Url.find() //取出Url Model所有資料
+  .lean() //把mongoose Model物件轉換為JavaScript物件
+  .then( urls => res.render('index',{ urls })) //將資料傳給index樣版
+  .catch(error => console.error(error))//錯誤處理
 })
 
 app.listen(port, () =>{
