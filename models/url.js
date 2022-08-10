@@ -1,11 +1,11 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 const urlSchema = new Schema({
-  Url: {
+  initialURL: {
     type: String,
     required: true,
   },
-  shortUrl: {
+  shortURL: {
     type: String,
     required: true,
   }
