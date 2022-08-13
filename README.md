@@ -31,11 +31,11 @@ $ cd url_shortener
 
 Mac設定如下
 ```
-export MONGODB_URI="mongodb+srv://alpha:camp@cluster0.h1zdvoc.mongodb.net/restaurant_list?retryWrites=true&w=majority"
+export MONGODB_URI="mongodb+srv://alpha:camp@cluster0.h1zdvoc.mongodb.net/url_shortener?retryWrites=true&w=majority"
 ```
 Windows設定如下：
 ```
-set MONGODB_URI="mongodb+srv://alpha:camp@cluster0.h1zdvoc.mongodb.net/restaurant_list?retryWrites=true&w=majority"
+set MONGODB_URI="mongodb+srv://alpha:camp@cluster0.h1zdvoc.mongodb.net/url_shortener?retryWrites=true&w=majority"
 ```
 4.確認已安裝node.js,npm套件,MongoDb雲端版,圖形化介面Robo3T
 
