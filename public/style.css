@@ -1,6 +1,50 @@
-.center{
-   display: block;
+
+.container {
+    text-align: center;
+}
+.result {
+    padding: 5px 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 157, 0);
+}
+
+.result {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.header{
+    text-align: center;
+}
+
+
+img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
+
+img {
+    flex:1;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 50%;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.btn {
+    width: 30%;
+    background-color: cornsilk;
+    color: rgb(165, 109, 255);
+    padding: 0.5rem;
+}
+
