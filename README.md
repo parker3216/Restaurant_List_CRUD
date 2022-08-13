@@ -49,5 +49,5 @@ set MONGODB_URI="mongodb+srv://alpha:camp@cluster0.h1zdvoc.mongodb.net/restauran
 App is running on http://localhost:3000
 mongodb connected!
  ```
-7.開啟瀏覽器網址列輸入 http://localhost:3000/ 即可看到本專案的網頁呈現
+7.開啟瀏覽器網址列輸入 http://localhost:3000 即可看到本專案的網頁呈現
 
